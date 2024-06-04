@@ -1,0 +1,107 @@
+html{
+   background-color: rgb(154, 154, 226); 
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 30px;
+    color: rgb(19, 86, 230);
+}
+form{
+   margin-left: 450px; 
+   width: 480px;
+   border: 5px solid green;
+   padding: 10px;
+   background: #ccc;
+   border-radius: 15px;
+   float:left; 
+}
+.header-container{
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+}
+.main-container{
+    display: flex;
+    column-gap: 20px;
+}
+
+#optician{
+    width: 200px;
+    height: 320px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.socialmedia{
+    height: 8%;
+    width: 8%;
+}
+#fname{
+    line-height: 30px;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    order: none; 
+    border:solid 1px #ccc;
+    border-radius: 10px; 
+    font-size: medium;
+}
+#lname{
+    line-height: 30px;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    order: none; 
+    border:solid 1px #ccc;
+    border-radius: 10px; 
+    font-size: medium;
+}
+#pwd{
+    line-height: 30px;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    order: none; 
+    border:solid 1px #ccc;
+    border-radius: 10px; 
+    font-size: medium;
+}
+#email{
+    line-height: 30px;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    order: none; 
+    border:solid 1px #ccc;
+    border-radius: 10px; 
+    font-size: medium;
+}
+.loginOption-container{
+    display: inline-flex;
+    justify-content: space-evenly;    
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#terms{
+    font-size:  16px;
+    color: green;
+}
+#reset{
+    background: red;
+}
+#submit{
+    background: green;
+}
+#submit, #reset{
+    padding: 5px;
+    font-size: medium;
+    
+}
